@@ -34,9 +34,9 @@ Feature: N11 app mobile test c_01
 
 
 
-  git commit -m "first commit"
-  git branch -M main
-  git remote add origin https://github.com/culhamu/com.n11Appium.git
-  git push -u origin main
+
+
+
+
 
 
