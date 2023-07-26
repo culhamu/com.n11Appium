@@ -1,21 +1,4 @@
-<table width="358" style="height: 170px; width: 480px;">
-<tbody>
-<tr style="height: 62px;">
-<td style="height: 62px; width: 470px;">
-<h2 style="text-align: center;"><strong>&nbsp;</strong><strong>Heal Life Hospital Project&nbsp;</strong><strong></strong></h2>
-</td>
-</tr>
-<tr style="height: 36px;">
-<td style="height: 36px; width: 470px;">&nbsp;<strong>User HomePage :</strong>&nbsp;https://qa.heallifehospital.com/</td>
-</tr>
-<tr style="height: 36px;">
-<td style="height: 36px; width: 470px;">&nbsp;<strong>User Login :</strong>&nbsp;https://qa.heallifehospital.com/site/userlogin</td>
-</tr>
-<tr style="height: 36px;">
-<td style="height: 36px; width: 470px;">&nbsp;<strong>Admin Login :</strong>&nbsp;https://qa.heallifehospital.com/site/login</td>
-</tr>
-</tbody>
-</table>
+
 <p></p>
 <table width="447" style="width: 486px;">
 <tbody>

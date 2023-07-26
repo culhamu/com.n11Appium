@@ -7,6 +7,7 @@ import io.appium.java_client.android.nativekey.KeyEvent;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import util.ReuseableMethods;
 

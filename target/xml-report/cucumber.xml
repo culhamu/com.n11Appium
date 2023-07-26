@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.848">
+    <testcase classname="N11 app mobile test c_01" name="Dropdown" time="0.732">
+        <failure message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 11. The following are available: emulator-5554 (10) &#10;Host info: host: 'MUSTAFA', ip: '192.168.1.104'&#10;Build info: version: '4.8.1', revision: '8ebccac989'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[{appium:appActivity=com.dmall.mfandroid.activity.base.NewSplash, appium:appPackage=com.dmall.mfandroid, appium:automationName=UiAutomator2, appium:deviceName=V150143202104233497, platformName=ANDROID, appium:platformVersion=11}], desiredCapabilities=Capabilities {appActivity: com.dmall.mfandroid.activit..., appPackage: com.dmall.mfandroid, automationName: UiAutomator2, deviceName: V150143202104233497, platformName: ANDROID, platformVersion: 11}}]&#10;Capabilities {appActivity: com.dmall.mfandroid.activit..., appPackage: com.dmall.mfandroid, automationName: UiAutomator2, deviceName: V150143202104233497, platformName: ANDROID, platformVersion: 11}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[Given click the "Kategoriler"...............................................skipped
+And click the "Otomotiv & Motosiklet".......................................skipped
+And click the "Yedek Parça".................................................skipped
+And click the "Egzoz".......................................................skipped
+And click the "Filtrele"....................................................skipped
+And click the "Teslimat Adresi Seç".........................................skipped
+Then click the "Şehir Seç"..................................................skipped
+And Scroll down to the "İstanbul"...........................................skipped
+And click the "İlçe Seç"....................................................skipped
+Then Scroll down to the "Beşiktaş"..........................................skipped
+And click the "Onayla"......................................................skipped
+Then click the "Sonuçları Göster"...........................................skipped
+And verify that "AYNI GÜN TESLİMAT" is visible..............................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 11. The following are available: emulator-5554 (10) 
+Host info: host: 'MUSTAFA', ip: '192.168.1.104'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.dmall.mfandroid.activity.base.NewSplash, appium:appPackage=com.dmall.mfandroid, appium:automationName=UiAutomator2, appium:deviceName=V150143202104233497, platformName=ANDROID, appium:platformVersion=11}], desiredCapabilities=Capabilities {appActivity: com.dmall.mfandroid.activit..., appPackage: com.dmall.mfandroid, automationName: UiAutomator2, deviceName: V150143202104233497, platformName: ANDROID, platformVersion: 11}}]
+Capabilities {appActivity: com.dmall.mfandroid.activit..., appPackage: com.dmall.mfandroid, automationName: UiAutomator2, deviceName: V150143202104233497, platformName: ANDROID, platformVersion: 11}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+	at util.DriverFactory.initializeTheN11Driver(DriverFactory.java:32)
+	at Hooks.hooks.instantiateTheDriver(hooks.java:11)
+]]></failure>
+    </testcase>
+</testsuite>

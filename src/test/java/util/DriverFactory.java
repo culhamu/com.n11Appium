@@ -1,6 +1,7 @@
 package util;
 
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.options.UiAutomator2Options;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -37,6 +38,16 @@ public class DriverFactory {
 
             int impWait = 15;
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(impWait));
+        }
+        if (platformName.equals("Android")){
+            UiAutomator2Options options=new UiAutomator2Options()
+                    .setPlatformName(ConfigReader.getProperty("platformName"))
+                    .setPlatformVersion(ConfigReader.getProperty("platformVersion"))
+                    .setDeviceName(ConfigReader.getProperty("deviceNameTablet"))
+                    .setAutomationName(ConfigReader.getProperty("automationName"))
+                    .setAppPackage(ConfigReader.getProperty("n11Package"))
+                    .setAppActivity(ConfigReader.getProperty("n11Activity"));
+            driver=new AndroidDriver(options);
         }
     }
 
